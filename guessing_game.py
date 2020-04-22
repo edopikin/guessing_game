@@ -61,7 +61,6 @@ while True:
         continue
 
     secret_number = (random.randint(min_num,max_num))
-    print(secret_number)
     print(f'''
 Guess a number between {min_num} and {max_num}
 You have {number_of_chances} chances''')
